@@ -695,4 +695,4 @@ export {
   gr as IGTable,
   hr as IGTheme
 };
-//# sourceMappingURL=test-admin.es.js.map
+//# sourceMappingURL=react-admin-component-library.es.js.map

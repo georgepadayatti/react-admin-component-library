@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
-    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/georgepadayatti/test-admin">
-    <a href="/../../issues" title="Open Issues"><img src="https://img.shields.io/github/issues/georgepadayatti/test-admin?style=flat"></a>
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/georgepadayatti/react-admin-component-library">
+    <a href="/../../issues" title="Open Issues"><img src="https://img.shields.io/github/issues/georgepadayatti/react-admin-component-library?style=flat"></a>
     <a href="./LICENSE" title="License"><img src="https://img.shields.io/badge/License-Apache%202.0-yellowgreen?style=flat"></a>
 </p>
 
@@ -23,13 +23,13 @@ This repository hosts custom package for reusable `react-admin` components.
 ## Installation
 
 ```
-npm install 'georgepadayatti/test-admin'
+npm install 'georgepadayatti/react-admin-component-library'
 ```
 
 ## Usage
 
 ```js
-import { IGTable } from 'test-admin';
+import { IGTable } from 'react-admin-component-library';
 
 export const SampleResource = () => (
     <IGTable sort={"ASC"}>

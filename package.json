@@ -1,5 +1,5 @@
 {
-  "name": "test-admin",
+  "name": "react-admin-component-library",
   "private": false,
   "type": "module",
   "version": "2023.4.1",
@@ -23,16 +23,16 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/test-admin.es.js",
-      "require": "./dist/test-admin.umd.js"
+      "import": "./dist/react-admin-component-library.es.js",
+      "require": "./dist/react-admin-component-library.umd.js"
     }
   },
-  "main": "./dist/test-admin.umd.js",
-  "module": "./dist/test-admin.es.js",
+  "main": "./dist/react-admin-component-library.umd.js",
+  "module": "./dist/react-admin-component-library.es.js",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/georgepadayatti/test-admin"
+    "url": "https://github.com/georgepadayatti/react-admin-component-library"
   },
   "devDependencies": {
     "@types/node": "^18.19.31",

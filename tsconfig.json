@@ -17,7 +17,7 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "test-admin": ["src/index.ts"]
+      "react-admin-component-library": ["src/index.ts"]
     },
     "typeRoots": ["./dist/index.d.ts", "node_modules/@types"]
   },

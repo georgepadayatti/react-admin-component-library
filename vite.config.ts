@@ -10,9 +10,9 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve('src', 'index.ts'),
-            name: 'test-admin',
+            name: 'react-admin-component-library',
             formats: ['es', 'umd'],
-            fileName: (format) => `test-admin.${format}.js`,
+            fileName: (format) => `react-admin-component-library.${format}.js`,
         },
         rollupOptions: {
             external: [...Object.keys(packageJson.peerDependencies)],
